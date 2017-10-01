@@ -71,6 +71,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="ServerConnecter.cs" />
+    <Compile Include="UserControl.xaml.cs">
+      <DependentUpon>UserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="空间数据\Geometry.cs" />
+    <Compile Include="空间数据\MultiPolygon.cs" />
+    <Compile Include="空间数据\MultiPolyline.cs" />
+    <Compile Include="空间数据\PointD.cs" />
+    <Compile Include="空间数据\Polygon.cs" />
+    <Compile Include="空间数据\Polyline.cs" />
+    <Compile Include="空间数据\Rectangle.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -84,6 +94,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MapControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

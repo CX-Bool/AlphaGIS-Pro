@@ -49,6 +49,10 @@
             <Separator HorizontalAlignment="Left" />
         </Fluent:StatusBar>
         <Grid Margin="0,0,0,0.5" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="117*"/>
+                <ColumnDefinition Width="188*"/>
+            </Grid.ColumnDefinitions>
             <Label Content="图层" HorizontalAlignment="Left" Margin="10,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.199,0.197"/>
             <Label Content="地图" HorizontalAlignment="Left" Margin="149,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.199,0.197"/>
             <TreeView HorizontalAlignment="Left" Height="409" Margin="10,168,0,0" VerticalAlignment="Top" Width="100">
@@ -57,7 +61,7 @@
                 </TreeView.Effect>
             </TreeView>
             <Image HorizontalAlignment="Left" Height="390" Margin="149,173,0,0" VerticalAlignment="Top" Width="756"
-                   Source="Resources\show.png">
+                   Source="Resources\show.png" Grid.ColumnSpan="2">
             </Image>
 
         </Grid>

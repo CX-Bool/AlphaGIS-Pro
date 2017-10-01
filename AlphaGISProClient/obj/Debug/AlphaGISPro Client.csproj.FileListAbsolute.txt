@@ -1,3 +1,11 @@
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\MainWindow.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\MainWindow.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\MapControl.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\App.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISProClient_MarkupCompile.cache
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISProClient_MarkupCompile.lref
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISPro Client.csprojResolveAssemblyReference.cache
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\UserControl.g.cs
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\bin\Debug\AlphaGISProClient.exe.config
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\bin\Debug\AlphaGISProClient.exe
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\bin\Debug\AlphaGISProClient.pdb
@@ -5,15 +13,9 @@ D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\bin\Debug\Fl
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\bin\Debug\System.Windows.Interactivity.dll
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\bin\Debug\Fluent.pdb
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\bin\Debug\Fluent.xml
-D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISPro Client.csprojResolveAssemblyReference.cache
-D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\MainWindow.baml
-D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\MainWindow.g.cs
-D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\MapControl.g.cs
-D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\App.g.cs
-D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISProClient_MarkupCompile.cache
-D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISProClient_MarkupCompile.lref
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\App.baml
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\MapControl.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\UserControl.baml
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISProClient.g.resources
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISProClient.Properties.Resources.resources
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISPro Client.csproj.GenerateResource.Cache

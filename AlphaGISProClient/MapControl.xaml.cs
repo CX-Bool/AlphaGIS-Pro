@@ -22,9 +22,41 @@ namespace AlphaGISProClient
     public partial class MapControl : System.Windows.Controls.Image
     {
         public MapControl()
-        { 
+        {
+            //InitializeComponent();
+            //this.MouseWheel += new MouseWheelEventHandler(MapControl_MouseWheel);
+            //this.MouseDown += new MouseButtonEventHandler(pictureBox1_MouseDown);
+            //this.MouseMove += new MouseEventHandler(pictureBox1_MouseMove);
+            //this.MouseUp += new MouseButtonEventHandler(pictureBox1_MouseUp);
 
+            //mCur_PanUp = ((TextBlock)Resources["Pan"]).Cursor;
+            //mCur_ZoomIn = ((TextBlock)Resources["ZoomIn"]).Cursor;
+            //mCur_ZoomOut = ((TextBlock)Resources["ZoomOut"]).Cursor;
+            ////Fixed size
+            //bitmap_X = 800;
+            //bitmap_Y = 500;
+            //InitializeBackground();
         }
+        private void InitializeBackground()
+        {
+            //gridbmp = BitmapFactory.New(bitmap_X, bitmap_Y);
+            //using (gridbmp.GetBitmapContext())
+            //{
+
+            //    gridbmp.Clear(Colors.White);
+
+            //    for (int i = 4; i < 801; i += 8)
+            //    {
+            //        gridbmp.DrawLineAa(i, 0, 0, i, Colors.Black);
+            //        gridbmp.DrawLineAa(i, 802, 802, i, Colors.Black);
+            //    }
+            //    linebmp = gridbmp.Flip(WriteableBitmapExtensions.FlipMode.Vertical);
+            //    gridbmp.Blit(new Rect(0, 0, 802, 802), linebmp, new Rect(0, 0, 802, 802), WriteableBitmapExtensions.BlendMode.ColorKeying);
+            //}
+            //gridbmp = gridbmp.Crop(0, 0, bitmap_X, bitmap_Y);
+            //linebmp = linebmp.Crop(0, 0, bitmap_X, bitmap_Y);
+        }
+        
         #region private fields
         private double _DisplayScale = 100000;//比例尺的倒数，初始值设为100000
         private double mOffsetX = 608 * 3 / 2, mOffsetY = 482 * 3 / 2;//bitmap中心点的坐标
@@ -80,5 +112,17 @@ namespace AlphaGISProClient
 
 
         #endregion
+    }
+    public enum MapOperationType
+    {
+        None = 0,
+        ZoomIn = 1,
+        ZoomOut = 2,
+        Pan = 3,
+        SelectFeature = 4,
+        EditAdd = 5,
+        EditMoveSelectedFeature = 6,
+        EditSelectPoints = 7,
+        EditMoveSelectedPoints = 8
     }
 }
