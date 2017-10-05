@@ -20,6 +20,7 @@ namespace AlphaGISProClient
     /// <summary>
     /// 简单的多边形（只有一个环）
     /// </summary>
+    [Serializable]
     public class Polygon:Geometry
     {
         #region 字段

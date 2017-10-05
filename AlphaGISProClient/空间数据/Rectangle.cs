@@ -15,6 +15,7 @@ namespace AlphaGISProClient
     /// <summary>
     /// 矩形类（用于最小外包矩形、显示范围、拉框查询等等）左下角为原点
     /// </summary>
+    [Serializable]
     public class Rectangle
     {
         #region 属性

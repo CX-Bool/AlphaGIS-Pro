@@ -16,6 +16,7 @@ namespace AlphaGISProClient
     /// <summary>
     /// 点类
     /// </summary>
+    [Serializable]
     public class PointD: Geometry
     {
         #region 属性

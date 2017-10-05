@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\App.xaml
-3-2132297363
+12479791548
 
-16-1657658321
+411920632091
 16362374195
-MainWindow.xaml;MapControl.xaml;UserControl.xaml;
+InputBox.xaml;MainWindow.xaml;MapControl.xaml;MetaData.xaml;NewField.xaml;Login.xaml;PropertyData.xaml;QueryByAttribute.xaml;QueryResult.xaml;SelectField.xaml;SymbolSelector.xaml;UserControl.xaml;
 
 False
 

@@ -71,6 +71,7 @@ namespace AlphaGISProClient
             return new Rectangle(Box[0], Box[1], Box[2], Box[3]);
         }
     }*/
+    [Serializable]
     public class MultiPolyline:Geometry
     {
         #region 字段

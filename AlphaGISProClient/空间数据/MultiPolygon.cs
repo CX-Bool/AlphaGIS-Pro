@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace AlphaGISProClient
 {
-    
+    [Serializable]
     public class MultiPolygon : Geometry
     {
         #region 字段

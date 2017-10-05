@@ -22,3 +22,21 @@ D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\Al
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISPro Client.csproj.CoreCompileInputs.cache
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISProClient.exe
 D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\AlphaGISProClient.pdb
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\MetaData.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\QueryByAttribute.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\SymbolSelector.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\InputBox.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\NewField.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\PropertyData.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\QueryByAttribute.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\QueryResult.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\SelectField.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\SymbolSelector.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\Login.g.cs
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\InputBox.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\MetaData.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\NewField.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\Login.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\PropertyData.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\QueryResult.baml
+D:\2017秋季\22GIS算法应用开发\AlphaGISPro\AlphaGISProClient\obj\Debug\SelectField.baml

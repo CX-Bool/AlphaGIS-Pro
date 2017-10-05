@@ -61,16 +61,59 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="地图与图层\Constant.cs" />
+    <Compile Include="地图与图层\FeatureCollection.cs" />
+    <Compile Include="地图与图层\Layer.cs" />
+    <Compile Include="地图与图层\Map.cs" />
+    <Compile Include="地图与图层\Query.cs" />
+    <Compile Include="属性数据\Field.cs" />
+    <Compile Include="属性数据\Fields.cs" />
+    <Compile Include="属性数据\GeoRecordset.cs" />
+    <Compile Include="属性数据\Record.cs" />
+    <Compile Include="属性数据\Records.cs" />
+    <Compile Include="符号与注记\ColorControl.cs" />
     <Compile Include="FeatureEditor.cs" />
+    <Compile Include="InputBox.xaml.cs">
+      <DependentUpon>InputBox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MapControl.xaml.cs">
       <DependentUpon>MapControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MetaData.xaml.cs">
+      <DependentUpon>MetaData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Network\NetworkStream.cs" />
+    <Compile Include="NewField.xaml.cs">
+      <DependentUpon>NewField.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="ServerConnecter.cs" />
+    <Compile Include="PropertyData.xaml.cs">
+      <DependentUpon>PropertyData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QueryByAttribute.xaml.cs">
+      <DependentUpon>QueryByAttribute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QueryResult.xaml.cs">
+      <DependentUpon>QueryResult.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="符号与注记\Renderer_Label.cs" />
+    <Compile Include="SelectField.xaml.cs">
+      <DependentUpon>SelectField.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="符号与注记\SimpleFillSymbol.cs" />
+    <Compile Include="符号与注记\SimpleLineSymbol.cs" />
+    <Compile Include="符号与注记\SimplePointSymbol.cs" />
+    <Compile Include="符号与注记\Symbol.cs" />
+    <Compile Include="SymbolSelector.xaml.cs">
+      <DependentUpon>SymbolSelector.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControl.xaml.cs">
       <DependentUpon>UserControl.xaml</DependentUpon>
     </Compile>
@@ -81,6 +124,10 @@
     <Compile Include="空间数据\Polygon.cs" />
     <Compile Include="空间数据\Polyline.cs" />
     <Compile Include="空间数据\Rectangle.cs" />
+    <Page Include="InputBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -96,6 +143,38 @@
     <Page Include="MapControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MetaData.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NewField.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PropertyData.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="QueryByAttribute.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="QueryResult.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SelectField.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SymbolSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="UserControl.xaml">
       <SubType>Designer</SubType>
@@ -185,5 +264,6 @@
   <ItemGroup>
     <Resource Include="Resources\AGIS.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

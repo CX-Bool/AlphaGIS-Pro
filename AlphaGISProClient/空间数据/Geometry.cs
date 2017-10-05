@@ -23,6 +23,7 @@ namespace AlphaGISProClient
     /// <summary>
     /// 抽象地理要素类
     /// </summary>
+    [Serializable]
     public abstract class Geometry
     {
         public static double ER = 1e-10; //判断误差

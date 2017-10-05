@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace AlphaGISProClient
 {
 
-    
+    [Serializable]
     public class Polyline:Geometry
     {
         
